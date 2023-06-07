@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+$custom-colors: (
+        "navyBlue": #050A30,
+        "lightYellow": #F9E7C0,
+        "warmPink": #E8C6DB,
+        "coldPink": #F9EDF6,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

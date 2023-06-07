@@ -1,0 +1,46 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Kano Hair & Beauty - Meet the stylists</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Author">
+    <meta name="copyright" content="Copyright Camille Kirstine 2023">
+
+    <meta name=”description" content='Meet the stylists at Kano Hair & Beauty'>
+
+    <meta name=”robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords"
+          content="Hairstylist, curly hair specialist, hair colour specialist, hairstyle, hairstyling">
+
+    <meta property="og:title" content="Kano Hair & Beauty - Stylists"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="#"/>
+    <meta property="og:image" content="https://camillekirstine.com/kanopic/kanoprofilepic.webp"/>
+    <meta property="og:description"
+          content="Meet the stylists at Kano Hair & Beauty"/>
+    <meta property="og:locale" content="en_GB"/>
+
+    <meta itemprop="name" content="Kano Hair & Beauty"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/zqt5oyc.css">
+    <script src="https://kit.fontawesome.com/f5df81b727.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<?php include "includes/nav.php"?>
+<main></main>
+<?php include "includes/footer.php"?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
