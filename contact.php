@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -73,17 +74,17 @@
                         </p>
 
                         <br>
-                        <p class="pb-xl-5">
+                        <p class="pb-lg-3 pb-xl-5">
                             Optionally you can book your next appointment online, right here!
                         </p>
 
-                        <button class="mb-4 mt-5 py-2" type="button">
+                        <button class="mb-4 mt-3 py-2" type="button">
                             <a class="p-5" href="booking.php" target="_blank">Book now</a>
                         </button>
                     </div>
                 </div>
 
-                <div class="col-lg-6 mx-auto my-2 mt-lg-0 py-lg-3 pe-lg-5">
+                <div class="col-lg-6 mx-auto my-2 mt-lg-5 py-lg-3 pe-lg-5 mt-xl-0">
                     <img class="framed mx-auto" src="images/contactlogoframed.webp">
                 </div>
 
@@ -137,9 +138,9 @@
     <section>
         <picture class="salonpics">
             <div class="row g-0">
-                <div class="col-3 pt-xl-2 openingHoursDesktop">
-                    <h2 class="fs-3 mt-5 ms-4 ms-xl-5 ps-xl-5 pt-xl-5">OPENING HOURS</h2>
-                    <p class="text-navyBlue ms-4 ms-xl-5 ps-xl-5">
+                <div class="col-3 openingHoursDesktop">
+                    <h2 class="fs-3 pt-5 ps-5 ms-lg-2 mt-xl-5 pt-xl-5 ms-xl-5 ps-xl-5">OPENING HOURS</h2>
+                    <p class="text-navyBlue ps-4 ms-xl-5 ps-x-5">
                     <b>Monday:</b> Closed<br>
                     <b>Tuesday:</b> 09.30am - 05.30pm<br>
                     <b>Wednesday:</b> 09.30am - 05.30pm<br>

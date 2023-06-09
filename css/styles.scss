@@ -220,6 +220,11 @@ div.openingHoursBox {
 .openingHoursContainer {
   --bs-gutter-x: 0;
 }
+
+  /* PRICELIST DISPLAY */   
+.laptopDesktop {
+  display: none;
+}
 /* STYLING DESKTOP */
 
 @media (min-width: 60rem) {
@@ -324,6 +329,8 @@ div.openingHoursBox {
   }
 
 
+
+
   /* STYLING FRAMED PICTURES DESKTOP */
   .framed {
     width: 80%;
@@ -384,11 +391,16 @@ div.openingHoursBox {
   .openingHoursDesktop {
     display: block;
     background: rgba(232, 198, 219, .7);
-
   }
 
-  .contactInfoDesktop {
-    font-size: 16pt;
+  /* PRICELIST DISPLAY */
+
+  .mobileTablet {
+    display: none;
+  }
+
+  .laptopDesktop {
+    display: block;
   }
 
 }

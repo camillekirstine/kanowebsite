@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -58,9 +59,13 @@
             background: rgba(1,10,48, .9);
         }
 
-        @media (screen-size: 60rem) {
+        @media (min-width: 60rem) {
             h2 {
                 font-size: 20pt;
+            }
+
+            .navbar-collapse {
+                background: none;
             }
         }
 
