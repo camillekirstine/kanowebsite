@@ -1,3 +1,9 @@
+<?php
+require "settings/init.php";
+$id = $_GET['staffId'];
+$staffInfo = $db->sql("SELECT * FROM staffinfo WHERE staffId = :staffId", [':staffId' => $id]);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,13 +41,49 @@
     <script src="https://kit.fontawesome.com/f5df81b727.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
+
+
+
 <?php include "includes/nav.php"?>
-<main></main>
-<?php include "includes/footer.php"?>
+
+<article class="localnav fixed-top mt-5 pt-3">
+    <?php include "includes/aboutnav.php"?>
+</article>
+
+<main class="mt-5 pt-5 pt-lg-5">
+    <section>
+        <div class="row mt-4 mt-lg-5 mb-4">
+            <div class="col-12 col-lg-8 col-xl-6 text-center mx-auto">
+                <h1>meet the stylist</h1>
+                <h2>Here you can read more about our stylists.  </h2>
+                <p class="text-coldPink px-3 ps-xl-5 pe-xl-5">Our stylists are highly trained in both haircuts and colours, and are always open for a chat about your dream hair.
+                    We pride ourselves on providing quality services, along with a friendly and relaxed atmosphere.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="staff mx-auto mb-4 mb-lg-5">
+    </section>
+
+
+    <?php include "includes/footer.php"?>
+
+</main>
+
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script type="module">
+    import KanoStaff from "./js/staffinfo.js";
+
+    const staff = new KanoStaff();
+    staff.init();
+</script>
 </body>
 </html>

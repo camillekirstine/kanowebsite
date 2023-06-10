@@ -74,7 +74,7 @@
                     </div>
                 </div>
 
-                <div class="row col-lg-6 mx-auto py-lg-3 pe-lg-5">
+                <div class="row col-lg-6 mx-auto py-lg-3 pe-lg-5 pt-lg-5">
                     <img class="framed mx-auto" src="images/thesalonframe.webp">
                 </div>
             </div>
