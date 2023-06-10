@@ -41,6 +41,11 @@
 <?php include "includes/nav.php"?>
 <main>
 
+    <div class="row">
+        <section class="col col-lg-6"></section>
+
+        <aside class="col col-lg-6"></aside>
+    </div>
 
 
 

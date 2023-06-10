@@ -139,8 +139,8 @@
         <picture class="salonpics">
             <div class="row g-0">
                 <div class="col-3 openingHoursDesktop">
-                    <h2 class="fs-3 pt-5 ps-5 ms-lg-2 mt-xl-5 pt-xl-5 ms-xl-5 ps-xl-5">OPENING HOURS</h2>
-                    <p class="text-navyBlue ps-4 ms-xl-5 ps-x-5">
+                    <h2 class="ps-4 pt-5 mt-3 ps-xxl-5 mt-xxl-5">OPENING HOURS</h2>
+                    <p class="text-navyBlue ps-4 ps-xxl-5">
                     <b>Monday:</b> Closed<br>
                     <b>Tuesday:</b> 09.30am - 05.30pm<br>
                     <b>Wednesday:</b> 09.30am - 05.30pm<br>
