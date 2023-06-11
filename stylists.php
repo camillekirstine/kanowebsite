@@ -12,12 +12,13 @@ $staffInfo = $db->sql("SELECT * FROM staffinfo WHERE staffId = :staffId", [':sta
     <meta charset="utf-8">
 
     <title>Kano Hair & Beauty - Meet the stylists</title>
+    <link rel="icon" type="image/x-icon" href="images/kanoprofilepic.webp">
 
     <meta name="robots" content="All">
     <meta name="author" content="Author">
     <meta name="copyright" content="Copyright Camille Kirstine 2023">
 
-    <meta name=”description" content='Meet the stylists at Kano Hair & Beauty'>
+    <meta name=”description" content="Meet the stylists at Kano Hair & Beauty">
 
     <meta name=”robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +28,7 @@ $staffInfo = $db->sql("SELECT * FROM staffinfo WHERE staffId = :staffId", [':sta
 
     <meta property="og:title" content="Kano Hair & Beauty - Stylists"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="#"/>
+    <meta property="og:url" content="https://camillekirstine.com/kanohair/stylists.php"/>
     <meta property="og:image" content="https://camillekirstine.com/kanopic/kanoprofilepic.webp"/>
     <meta property="og:description"
           content="Meet the stylists at Kano Hair & Beauty"/>

@@ -33,6 +33,7 @@ if(!empty($_POST["data"])) {
     <meta charset="utf-8">
 
     <title>Database editing page</title>
+    <link rel="icon" type="image/x-icon" href="images/kanoprofilepic.webp">
 
     <meta name="robots" content="None">
     <meta name="author" content="Author">

@@ -6,12 +6,13 @@
     <meta charset="utf-8">
 
     <title>Kano Hair & Beauty</title>
+    <link rel="icon" type="image/x-icon" href="images/kanoprofilepic.webp">
 
     <meta name="robots" content="All">
     <meta name="author" content="Author">
     <meta name="copyright" content="Copyright Camille Kirstine 2023">
 
-    <meta name=”description" content='Unisex salon in the heart of Shawlands'>
+    <meta name=”description" content="Unisex salon in the heart of Shawlands">
 
     <meta name=”robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +22,7 @@
 
     <meta property="og:title" content="Kano Hair & Beauty - Salon"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="#"/>
+    <meta property="og:url" content="https://camillekirstine.com/kanohair/index.php""/>
     <meta property="og:image" content="https://camillekirstine.com/kanopic/kanoprofilepic.webp"/>
     <meta property="og:description"
           content="Unisex salon in the heart of Shawlands"/>

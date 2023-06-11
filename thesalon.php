@@ -6,12 +6,13 @@
     <meta charset="utf-8">
 
     <title>Kano Hair & Beauty - The salon</title>
+    <link rel="icon" type="image/x-icon" href="images/kanoprofilepic.webp">
 
     <meta name="robots" content="All">
     <meta name="author" content="Author">
     <meta name="copyright" content="Copyright Camille Kirstine 2023">
 
-    <meta name=”description" content='Information about the salon'>
+    <meta name=”description" content="Information about the salon">
 
     <meta name=”robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +22,7 @@
 
     <meta property="og:title" content="Kano Hair & Beauty - Salon"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="#"/>
+    <meta property="og:url" content="https://camillekirstine.com/kanohair/thesalon.php"/>
     <meta property="og:image" content="https://camillekirstine.com/kanopic/kanoprofilepic.webp"/>
     <meta property="og:description"
           content="Information about the salon"/>
@@ -75,7 +76,7 @@
                 </div>
 
                 <div class="row col-lg-6 mx-auto py-lg-3 pe-lg-5 pt-lg-5">
-                    <img class="framed mx-auto" src="images/thesalonframe.webp">
+                    <img alt="image of the salon front with a frame design around it" class="framed mx-auto" src="images/thesalonframe.webp">
                 </div>
             </div>
         </article>

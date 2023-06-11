@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="index.php"><img class="kanologo" src="icons/kanologo.webp"></a>
+        <a class="navbar-brand" href="index.php"><img alt="kano's logo" class="kanologo" src="icons/kanologo.webp"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="burgermenu" src="icons/burgermenu.webp">
+            <img alt="burgermenu icon" class="burgermenu" src="icons/burgermenu.webp">
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">

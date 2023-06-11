@@ -6,12 +6,13 @@
     <meta charset="utf-8">
 
     <title>Kano Hair & Beauty - Contact</title>
+    <link rel="icon" type="image/x-icon" href="images/kanoprofilepic.webp">
 
     <meta name="robots" content="All">
     <meta name="author" content="Author">
     <meta name="copyright" content="Copyright Camille Kirstine 2023">
 
-    <meta name=”description" content='Get in contact with Kano Hair & Beauty'>
+    <meta name=”description" content="Get in contact with Kano Hair & Beauty">
 
     <meta name=”robots" content="index, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +22,7 @@
 
     <meta property="og:title" content="Kano Hair & Beauty - Contact"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="#"/>
+    <meta property="og:url" content="https://camillekirstine.com/kanohair/contact.php"/>
     <meta property="og:image" content="https://camillekirstine.com/kanopic/kanoprofilepic.webp"/>
     <meta property="og:description"
           content="Get in contact with Kano Hair & Beauty"/>
@@ -38,9 +39,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
-        .contactPicDesk {
-            margin-left: 3rem;
-        }
 
         main {
             margin-top: 5.5rem;
@@ -85,7 +83,7 @@
                 </div>
 
                 <div class="col-lg-6 mx-auto my-2 mt-lg-5 py-lg-3 pe-lg-5 mt-xl-0">
-                    <img class="framed mx-auto" src="images/contactlogoframed.webp">
+                    <img alt="Kano's logo with a colourful frame design around it" class="framed mx-auto" src="images/contactlogoframed.webp">
                 </div>
 
             </div>

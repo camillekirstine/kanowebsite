@@ -6,12 +6,13 @@
     <meta charset="utf-8">
 
     <title>Kano Hair & Beauty - Gallery</title>
+    <link rel="icon" type="image/x-icon" href="images/kanoprofilepic.webp">
 
     <meta name="robots" content="All">
     <meta name="author" content="Author">
     <meta name="copyright" content="Copyright Camille Kirstine 2023">
 
-    <meta name=”description" content='Gallery of our work'>
+    <meta name=”description" content="Gallery of our work">
 
     <meta name=”robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +22,7 @@
 
     <meta property="og:title" content="Kano Hair & Beauty - Gallery"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="#"/>
+    <meta property="og:url" content="https://camillekirstine.com/kanohair/gallery.php"/>
     <meta property="og:image" content="https://camillekirstine.com/kanopic/kanoprofilepic.webp"/>
     <meta property="og:description"
           content="Gallery of our work"/>
@@ -38,7 +39,7 @@
 
     <style>
         main {
-            margin-top: 7rem;
+            margin-top: 6rem;
             height: calc(100vh - 7vh);
         }
     </style>
@@ -49,15 +50,15 @@
 <?php include "includes/nav.php"?>
 <main>
 
-    <section class="m-5 px-5">
-        <div class="row pt-4">
-            <section class="col-12 text-center mb-3">
+    <section class="m-lg-5 px-lg-5">
+        <div class="row pt-lg-4">
+            <section class="col-12 text-center mb-lg-3">
                 <h1>Gallery</h1>
-                <h2>Here you can see pictures of some of the work we have done.</h2>
+                <h2 class="px-5 px-lg-0">Here you can see pictures of some of the work we have done.</h2>
             </section>
 
-            <div class="row">
-                <div class="col-12 col-lg-6 p-3">
+            <div class="row mx-auto">
+                <div class="col col-lg-6 p-2 p-lg-3">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -100,32 +101,32 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 pb-lg-2">
-                    <div class="row">
-                        <div class="col-6 col-lg-4 p-3">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery1.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery2.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon"  src="gallery/gallery3.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery4.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery5.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery6.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery7.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery8.webp">
                         </div>
-                        <div class="col-6 col-lg-4 p-3">
+                        <div class="col-6 col-lg-4 p-2 p-lg-3">
                             <img alt="picture of some of the work we do in the salon" src="gallery/gallery9.webp">
                         </div>
                     </div>
