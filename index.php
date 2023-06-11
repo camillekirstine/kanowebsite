@@ -78,9 +78,9 @@
 
 <main>
     <div class="container d-flex align-items-center">
-        <div class="row mx-auto mb-5 mb-xl-5 pb-xl-5">
+        <div class="row mx-auto mb-2 mb-xl-5 pb-xl-5">
             <div class="col-lg-2"></div>
-            <div class="col col-lg-8 mb-5 mb-lg-0 mb-xl-5">
+            <div class="col col-lg-8 mb-lg-0 mb-xl-5">
                <picture>
                    <img src="icons/KanoHBLogo.webp" alt="Kano hair and beauty logo">
                </picture>
@@ -95,12 +95,13 @@
 
 
  <div class="wallpaper overflow-hidden">
-     <video poster="kanoposter.webp" autoplay loop muted>
+     <video id="videobg" poster="kanoposter.webp" playsinline autoplay loop muted>
          <source src="video/kanofrontpage.mp4" type="video/mp4" />
      </video>
  </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </body>
 </html>

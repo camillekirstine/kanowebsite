@@ -1,7 +1,7 @@
 <?php
 require "settings/init.php";
 $id = $_GET['staffId'];
-$staffInfo = $db->sql("SELECT * FROM staffinfo WHERE staffId = :staffId", [':staffId' => $id]);
+$staffInfo = $db->sql("SELECT * FROM staffInfo WHERE staffId = :staffId", [':staffId' => $id]);
 ?>
 
 <!DOCTYPE html>
